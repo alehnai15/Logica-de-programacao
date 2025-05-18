@@ -1,18 +1,21 @@
 programa {
   funcao inicio() {
     inteiro idade 
+   
+   escreva("Qual sua idade? ")
+   leia(idade)
 
     se (idade >= 65) {
-      escreva("Você é um idoso")
+      escreva("Você é um idoso.")
     }
     senao se (idade >= 18){
-      escreva("Você é um adulto")
+      escreva("Você é um adulto.")
     }
     senao se (idade >= 13){
-      escreva("Você é um adolecente")
+      escreva("Você é um adolecente.")
     }
     senao se (idade <= 12){
-      escreva("Você é uma criança")
+      escreva("Você é uma criança.")
     }
     
   }
