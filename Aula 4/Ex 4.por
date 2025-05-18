@@ -12,6 +12,6 @@ programa {
 
       }
       senao 
-      escreva("Senha incorrete. Tente novamente.\n")
+      escreva("Senha incorreta. Tente novamente.\n")
 
     } enquanto (senha != 123)
