@@ -10,9 +10,9 @@ programa {
     escreva("Nota 3: ")
     leia(nota3)
 
-    escreva("A média das notas é: ", resultado, "\n")
-
     resultado = (nota1 + nota2 + nota3) / 3
+
+    escreva("A média das notas é: ", resultado, "\n")
 
     se (nota1 >=7 ){
       contador++
