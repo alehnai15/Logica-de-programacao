@@ -6,9 +6,12 @@ programa {
     faca {
       escreva("Digite a senha: ")
       leia(senha)
-      escreva("Senha incorreta. Tente novamente.\n")
-    } enquanto (senha != 123)
-      escreva("Acesso liberado.")
 
-  }
-}
+      se (senha ==123){
+        escreva("Acesso liberado.")
+
+      }
+      senao 
+      escreva("Senha incorrete. Tente novamente.\n")
+
+    } enquanto (senha != 123)
