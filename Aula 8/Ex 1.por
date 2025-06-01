@@ -16,7 +16,7 @@ programa {
       }
     }
     para (inteiro i = 0; i < 3; i++){
-      para (inteiro j = 0; j < 3; i++){
+      para (inteiro j = 0; j < 3; j++){
         soma = soma + matriz[i][j]
       }
     }
