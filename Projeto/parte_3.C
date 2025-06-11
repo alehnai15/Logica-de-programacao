@@ -14,6 +14,8 @@ void mostrarMenu(){
 
     printf("\nSelecione uma opção: ");
     scanf("%d", &opcao);
+
+    return opcao;
 }
 
 void criarConta(){
@@ -34,6 +36,8 @@ void buscarConta(){
 
 int main(){
     int opcao;
+
+    opcao = mostrarMenu();
 
     switch (opcao){
         case 0:
