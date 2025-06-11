@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void mostrarMenu(){
+int mostrarMenu(){
     int opcao;
 
     printf("_____Sistema Bancario_____\n");
